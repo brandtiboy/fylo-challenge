@@ -1,0 +1,77 @@
+body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    background: url(images/bg-mobile.svg);
+}
+
+p {
+    color: white;
+}
+
+.first__component {
+    margin: 35% 6% 2% 4%;
+    padding: 40px;
+    width: 70%;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px 120px 15px 15px;
+}
+
+.first__component .logo {
+    display: block;
+    padding-bottom: 10%;
+}
+
+.first__component .icon {
+    display: inline-block;
+    padding: 4%;
+    margin: 3% 4% 3% 0;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.first__component .icon img {
+    vertical-align: middle;
+}
+
+.second__component {
+    margin: 5% 6% 2% 4%;
+    padding: 15px 40px;
+    width: 70%;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 15px;
+}
+
+.second__component p > span {
+    float: right;
+}
+
+.meter { 
+	height: 14px;  /* Can be anything */
+	position: relative;
+	background: hsl(229, 57%, 11%);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 3px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgb(255,163,153);
+    background: linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,91,1) 100%);
+    /*box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);*/
+    position: relative;
+    overflow: hidden;
+  }
